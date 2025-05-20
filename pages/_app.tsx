@@ -3,6 +3,7 @@ import type { AppProps } from "next/app";
 import React from 'react'
 import Head from 'next/head'
 import Header from "./component/Header";
+import Footer from "./component/Footer";
 
 export default function App({ Component, pageProps }: AppProps) {
   return (
@@ -13,6 +14,7 @@ export default function App({ Component, pageProps }: AppProps) {
       </Head>
       <Header />
       <Component {...pageProps} />
+      <Footer />
     </>
   )
 }

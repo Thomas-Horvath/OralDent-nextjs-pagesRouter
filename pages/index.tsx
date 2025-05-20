@@ -15,7 +15,7 @@
 
 export default function Home() {
   return (
-    <div>
+    <div className="h-screen text-center mt-[3rem] p-2">
      <h1>Home</h1>
     </div>
   );

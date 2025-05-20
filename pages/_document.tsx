@@ -12,7 +12,7 @@ export default function Document() {
           content="OralDent - Fogászat Pomáz - Szájsebészet, fogászat, szájhigiénia, fogpótlás, fogszabályozás"
         />
       </Head>
-      <body className="antialiased">
+      <body className="antialiased h-screen">
         
         <Main />
         <NextScript />
